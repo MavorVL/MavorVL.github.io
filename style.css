@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+}
+
+.container {
+	max-width: 390px;
+}
+
+.inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 240px 240px 240px;
+}
+
+.img {
+	width: 150px;
+}
+
+.item {
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(255, 218, 26);
+	border-radius: 15px;
+	color:  rgb(0, 81, 186);
+	text-transform: uppercase;
+	font-weight: 1000;
+
+	transition: background .2s linear;
+}
+
+.btn:hover {
+	background: rgb(0, 81, 186);
+	color:  rgb(255, 218, 26);
+}
+
+.usercard {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
