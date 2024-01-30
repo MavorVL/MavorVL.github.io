@@ -20,6 +20,7 @@ btn1.addEventListener("click", function(){
 	tg.MainButton.setText("Order Abujing ");
 	item = "1";
 	tg.MainButton.hide();
+	delay(500);
 	tg.MainButton.show();
 	
 });
@@ -28,6 +29,7 @@ btn2.addEventListener("click", function(){
 	tg.MainButton.setText("Order Blahaj");
 	item = "2";
 	tg.MainButton.hide();
+	delay(500);
 	tg.MainButton.show();
 });
 
