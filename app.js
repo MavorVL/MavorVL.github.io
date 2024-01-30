@@ -17,20 +17,31 @@ let btn7 = document.getElementById("btn7");
 let btn8 = document.getElementById("btn8");
 
 btn1.addEventListener("click", function(){
-	tg.MainButton.setText("Order Abujing ");
-	item = "1";
-	tg.MainButton.hide();
-	delay(500);
-	tg.MainButton.show();
-	
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+		tg.MainButton.setText("Order Abujing");
+		item = "1";
+		tg.MainButton.show();
+	}
+	else {
+		tg.MainButton.setText("Order ABUJING");
+		item = "1";
+		tg.MainButton.show();
+	}
 });
 
 btn2.addEventListener("click", function(){
-	tg.MainButton.setText("Order Blahaj");
-	item = "2";
-	tg.MainButton.hide();
-	delay(500);
-	tg.MainButton.show();
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+		tg.MainButton.setText("Order Fulltalig");
+		item = "2";
+		tg.MainButton.show();
+	}
+	else {
+		tg.MainButton.setText("Order Fulltalig");
+		item = "2";
+		tg.MainButton.show();
+	}
 });
 
 btn3.addEventListener("click", function(){
