@@ -19,6 +19,7 @@ let btn8 = document.getElementById("btn8");
 btn1.addEventListener("click", function(){
 	tg.MainButton.setText("Order Abujing ");
 	item = "1";
+	tg.MainButton.hide();
 	tg.MainButton.show();
 	
 });
@@ -26,6 +27,7 @@ btn1.addEventListener("click", function(){
 btn2.addEventListener("click", function(){
 	tg.MainButton.setText("Order Blahaj");
 	item = "2";
+	tg.MainButton.hide();
 	tg.MainButton.show();
 });
 
