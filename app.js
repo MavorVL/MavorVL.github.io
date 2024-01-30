@@ -19,12 +19,12 @@ let btn8 = document.getElementById("btn8");
 btn1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
-		tg.MainButton.setText("Order Abujing");
+		tg.MainButton.setText("Order ÅBUJING");
 		item = "1";
 		tg.MainButton.show();
 	}
 	else {
-		tg.MainButton.setText("Order ABUJING");
+		tg.MainButton.setText("Order ÅBUJING");
 		item = "1";
 		tg.MainButton.show();
 	}
@@ -33,12 +33,12 @@ btn1.addEventListener("click", function(){
 btn2.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
-		tg.MainButton.setText("Order Fulltalig");
+		tg.MainButton.setText("Order BLÅHAJ");
 		item = "2";
 		tg.MainButton.show();
 	}
 	else {
-		tg.MainButton.setText("Order Fulltalig");
+		tg.MainButton.setText("Order BLÅHAJ");
 		item = "2";
 		tg.MainButton.show();
 	}
@@ -47,9 +47,12 @@ btn2.addEventListener("click", function(){
 btn3.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
+		tg.MainButton.setText("Order FULLTALIG");
+		item = "3";
+		tg.MainButton.show();
 	}
 	else {
-		tg.MainButton.setText("Order Fulltalig");
+		tg.MainButton.setText("Order FULLTALIG");
 		item = "3";
 		tg.MainButton.show();
 	}
@@ -58,9 +61,12 @@ btn3.addEventListener("click", function(){
 btn4.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
+		tg.MainButton.setText("Order ÄDELLÖVSKOG");
+		item = "4";
+		tg.MainButton.show();
 	}
 	else {
-		tg.MainButton.setText("Order Adellovskog");
+		tg.MainButton.setText("Order ÄDELLÖVSKOG");
 		item = "4";
 		tg.MainButton.show();
 	}
@@ -69,9 +75,12 @@ btn4.addEventListener("click", function(){
 btn5.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
+		tg.MainButton.setText("Order FEJKÁ");
+		item = "5";
+		tg.MainButton.show();
 	}
 	else {
-		tg.MainButton.setText("Order Fejka");
+		tg.MainButton.setText("Order FEJKÁ");
 		item = "5";
 		tg.MainButton.show();
 	}
@@ -80,9 +89,12 @@ btn5.addEventListener("click", function(){
 btn6.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
+		tg.MainButton.setText("Order KOLBJÖRN");
+		item = "6";
+		tg.MainButton.show();
 	}
 	else {
-		tg.MainButton.setText("Order Kolbjorn");
+		tg.MainButton.setText("Order KOLBJÖRN");
 		item = "6";
 		tg.MainButton.show();
 	}
@@ -90,9 +102,12 @@ btn6.addEventListener("click", function(){
 btn7.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
+		tg.MainButton.setText("Order VITTSJÖ");
+		item = "7";
+		tg.MainButton.show();
 	}
 	else {
-		tg.MainButton.setText("Order Visttijo");
+		tg.MainButton.setText("Order VITTSJÖ");
 		item = "7";
 		tg.MainButton.show();
 	}
@@ -100,9 +115,12 @@ btn7.addEventListener("click", function(){
 btn8.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
+		tg.MainButton.setText("Order KALLAX");
+		item = "8";
+		tg.MainButton.show();
 	}
 	else {
-		tg.MainButton.setText("Order Kallax");
+		tg.MainButton.setText("Order KALLAX");
 		item = "8";
 		tg.MainButton.show();
 	}
