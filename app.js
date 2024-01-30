@@ -2,8 +2,8 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-tg.MainButton.textColor = '#FFFFFF';
-tg.MainButton.color = '#2cab37';
+tg.MainButton.textColor = '#FFDA1A';
+tg.MainButton.color = '#0051BA';
 
 let item = "";
 
@@ -17,25 +17,16 @@ let btn7 = document.getElementById("btn7");
 let btn8 = document.getElementById("btn8");
 
 btn1.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Вы выбрали товар 1!");
-		item = "1";
-		tg.MainButton.show();
-	}
+	tg.MainButton.setText("Order Abujing ");
+	item = "1";
+	tg.MainButton.show();
+	
 });
 
 btn2.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Вы выбрали товар 2!");
-		item = "2";
-		tg.MainButton.show();
-	}
+	tg.MainButton.setText("Order Blahaj");
+	item = "2";
+	tg.MainButton.show();
 });
 
 btn3.addEventListener("click", function(){
@@ -43,7 +34,7 @@ btn3.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 3!");
+		tg.MainButton.setText("Order Fulltalig");
 		item = "3";
 		tg.MainButton.show();
 	}
@@ -54,7 +45,7 @@ btn4.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 4!");
+		tg.MainButton.setText("Order Adellovskog");
 		item = "4";
 		tg.MainButton.show();
 	}
@@ -65,7 +56,7 @@ btn5.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 5!");
+		tg.MainButton.setText("Order Fejka");
 		item = "5";
 		tg.MainButton.show();
 	}
@@ -76,7 +67,7 @@ btn6.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 6!");
+		tg.MainButton.setText("Order Kolbjorn");
 		item = "6";
 		tg.MainButton.show();
 	}
@@ -86,7 +77,7 @@ btn7.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 7!");
+		tg.MainButton.setText("Order Visttijo");
 		item = "7";
 		tg.MainButton.show();
 	}
@@ -96,7 +87,7 @@ btn8.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 8!");
+		tg.MainButton.setText("Order Kallax");
 		item = "8";
 		tg.MainButton.show();
 	}
